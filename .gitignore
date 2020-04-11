@@ -1,0 +1,7 @@
+resources
+node_modules
+config.js
+index.js
+mc_default.png
+mc.json
+package-lock.json
