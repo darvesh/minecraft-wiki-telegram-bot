@@ -7,7 +7,7 @@ const { BOT_TOKEN } = require("./config");
 
 const bot = new telegraf(BOT_TOKEN);
 
-const fileContent = readFileSync("./wiki.json", {
+const fileContent = readFileSync("./urls.json", {
 	encoding: "utf8",
 	flag: "r",
 });
@@ -37,7 +37,7 @@ bot.on(
 					thumb_url: parsed[refIndex].file_id,
 					caption: `${item.replace(/_/g, " ")} \n${parsed[refIndex].url}`,
 					title: item.replace(/_/g, " "),
-					message_text: `${parsed[refIndex].file_id}`,
+					message_text: `${parsed[refIndex].file_id}\n\nDescription: ${parsed[refIndex].description}`,
 					reply_markup: Markup.inlineKeyboard([
 						Markup.urlButton("Link", parsed[refIndex].url),
 					
