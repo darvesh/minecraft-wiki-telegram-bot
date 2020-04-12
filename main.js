@@ -24,11 +24,24 @@ const fuseInstance = new fuse(
 	index
 );
 
+/**
+ * formats the name, url and description
+ * @param {item} param0
+ */
+const format = ({
+	file_id,
+	content,
+	description,
+	url,
+}) => `<a href='${file_id}'>‍</a><b>${content.replace(/_/g, " ")}</b> 
+<i>${description}</i>
+<a href="${url}">Visit Wiki Page</a>`;
+
 bot.on(
 	"inline_query",
 	async ({ inlineQuery: { query, id }, answerInlineQuery }) => {
 		try {
-			const searchResult = fuseInstance.search(query).slice(0, 4);
+			const searchResult = fuseInstance.search(query).slice(0, 4).reverse();
 			const results = searchResult.map(({ item, refIndex }, idx) => {
 				return {
 					inline_query_id: id,
@@ -37,14 +50,11 @@ bot.on(
 					thumb_url: parsed[refIndex].file_id,
 					caption: `${item.replace(/_/g, " ")} \n${parsed[refIndex].url}`,
 					title: item.replace(/_/g, " "),
-					message_text: `${parsed[refIndex].file_id}\n\nDescription: ${parsed[refIndex].description}`,
-					reply_markup: Markup.inlineKeyboard([
-						Markup.urlButton("Link", parsed[refIndex].url),
-					
-					]),
+					parse_mode: "HTML",
+					message_text: format(parsed[refIndex]),
 				};
 			});
-			return answerInlineQuery(results.reverse());
+			return answerInlineQuery(results);
 		} catch (error) {
 			console.log(error.message);
 		}
