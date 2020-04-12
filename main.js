@@ -70,6 +70,6 @@ bot.command("start", ({ reply }) =>
 		"It's an inline bot. Please type @mcwikibot<space>query. \nFor help /help"
 	)
 );
-bot.command("help", ({ reply }) => reply("Available Commands\n/blocks"));
+bot.command("help", ({ reply }) => reply("Available Commands \n/blocks"));
 
 bot.launch();
