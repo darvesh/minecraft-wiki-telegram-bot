@@ -1,5 +1,4 @@
 const telegraf = require("telegraf");
-const { Markup } = telegraf;
 const { readFileSync } = require("fs");
 const fuse = require("fuse.js");
 
@@ -26,7 +25,7 @@ const fuseInstance = new fuse(
 
 /**
  * formats the name, url and description
- * @param {item} param0
+ * @param {Object} item
  */
 const format = ({
 	file_id,
@@ -60,5 +59,17 @@ bot.on(
 		}
 	}
 );
+
+bot.command("blocks", ({ replyWithDocument }) =>
+	replyWithDocument(
+		"https://gamepedia.cursecdn.com/minecraft_gamepedia/1/19/Block_overview.png"
+	)
+);
+bot.command("start", ({ reply }) =>
+	reply(
+		"It's an inline bot. Please type @mcwikibot<space>query. \nFor help /help"
+	)
+);
+bot.command("help", ({ reply }) => reply("Available Commands\n/blocks"));
 
 bot.launch();
