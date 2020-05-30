@@ -1,16 +1,13 @@
 const telegraf = require("telegraf");
-const { readFileSync } = require("fs");
 const fuse = require("fuse.js");
+const escapeHTML = require("escape-html");
 
 const { BOT_TOKEN } = require("./config");
+const { getInfoJSON } = require("./info");
 
 const bot = new telegraf(BOT_TOKEN);
 
-const fileContent = readFileSync("./urls.json", {
-	encoding: "utf8",
-	flag: "r",
-});
-const parsed = JSON.parse(fileContent);
+const parsed = require("./wiki.json");
 const names = parsed.map((p) => p.content);
 const index = fuse.createIndex(["content"], names);
 const fuseInstance = new fuse(
@@ -23,18 +20,12 @@ const fuseInstance = new fuse(
 	index
 );
 
-/**
- * formats the name, url and description
- * @param {Object} item
- */
 const format = ({
 	file_id,
 	content,
 	description,
-	url,
-}) => `<a href='${file_id}'>‍</a><b>${content.replace(/_/g, " ")}</b> 
-<i>${description}</i>
-<a href="${url}">Visit Wiki Page</a>`;
+}) => `<a href='${file_id}'>‍</a><b>${content.replace(/_/g, " ")}</b>
+<i>${description}</i>`;
 
 bot.on(
 	"inline_query",
@@ -50,10 +41,21 @@ bot.on(
 					caption: `${item.replace(/_/g, " ")} \n${parsed[refIndex].url}`,
 					title: item.replace(/_/g, " "),
 					parse_mode: "HTML",
-					message_text: format(parsed[refIndex]),
+					message_text: parsed[refIndex],
 				};
 			});
-			return answerInlineQuery(results);
+			const withProps = [];
+			for (const result of results) {
+				const props = await getInfoJSON(result.title);
+				console.log(`${format(result.message_text)} \n${props}`);
+				withProps.push({
+					...result,
+					message_text: `${format(result.message_text)} \n${escapeHTML(
+						props
+					)} \n<a href="${result.message_text.url}">Visit Wiki Page</a>`,
+				});
+			}
+			return answerInlineQuery(withProps);
 		} catch (error) {
 			console.log(error.message);
 		}
@@ -65,11 +67,18 @@ bot.command("blocks", ({ replyWithDocument }) =>
 		"https://gamepedia.cursecdn.com/minecraft_gamepedia/1/19/Block_overview.png"
 	)
 );
+bot.command("brewing", ({ replyWithDocument }) =>
+	replyWithDocument(
+		"https://gamepedia.cursecdn.com/minecraft_gamepedia/thumb/7/7b/Minecraft_brewing_en.png/400px-Minecraft_brewing_en.png"
+	)
+);
 bot.command("start", ({ reply }) =>
 	reply(
 		"It's an inline bot. Please type @mcwikibot<space>query. \nFor help /help"
 	)
 );
-bot.command("help", ({ reply }) => reply("Available Commands \n/blocks"));
+bot.command("help", ({ reply }) =>
+	reply("Available Commands \n/blocks\n/brewing")
+);
 
 bot.launch();
