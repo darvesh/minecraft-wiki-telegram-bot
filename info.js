@@ -1,4 +1,5 @@
 const WikiTextParser = require("parse-wikitext");
+const escapeHTML = require("escape-html");
 
 const wikiTextParser = new WikiTextParser("minecraft.gamepedia.com");
 
@@ -24,6 +25,9 @@ const keys = [
 	"secondaryitems",
 ];
 
+const capitalize = (word) =>
+	`${word.slice(0, 1).toUpperCase()}${word.slice(1)} `;
+
 const filterValues = (values) => {
 	let result = {};
 	for (const key in values)
@@ -39,7 +43,8 @@ const filterValues = (values) => {
 					.replace(/-link=[a-z]*/gi, " ")
 					.replace(/\* /g, " \n(>>)")
 					.replace(/hp\\-(\d{0,5})/g, "$1♥ ")
-					.replace(/\<br\\\-\>/g, ", "),
+					.replace(/\<br\\\-\>/g, ", ")
+					.replace(/\-|\\-|\\/g, " "),
 			};
 	return result;
 };
@@ -48,7 +53,7 @@ const formatValues = (object) => {
 	let str = "";
 	for (const key in object) {
 		if (!object[key].trim()) continue;
-		str += `${key.toUpperCase()}: ${object[key]} \n`;
+		str += `<b>${capitalize(key)}:</b>: ${escapeHTML(object[key])} \n`;
 	}
 	return str;
 };

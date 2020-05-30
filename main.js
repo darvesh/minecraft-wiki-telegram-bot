@@ -1,6 +1,5 @@
 const telegraf = require("telegraf");
 const fuse = require("fuse.js");
-const escapeHTML = require("escape-html");
 
 const { BOT_TOKEN } = require("./config");
 const { getInfoJSON } = require("./info");
@@ -50,9 +49,9 @@ bot.on(
 				console.log(`${format(result.message_text)} \n${props}`);
 				withProps.push({
 					...result,
-					message_text: `${format(result.message_text)} \n${escapeHTML(
-						props
-					)} \n<a href="${result.message_text.url}">Visit Wiki Page</a>`,
+					message_text: `${format(result.message_text)} \n${props} \n<a href="${
+						result.message_text.url
+					}">Visit Wiki Page</a>`,
 				});
 			}
 			return answerInlineQuery(withProps);
