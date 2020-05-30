@@ -32,26 +32,26 @@ const filterValues = (values) => {
 				...result,
 				[key]: values[key]
 					.replace(/{{.*bedrock.*}}/g, "")
-					.replace(/\<br\>/g, " ")
 					.replace(/[{}}']/g, "")
 					.replace(/[/|]/g, "\\-")
 					.replace(/<br>/g, ", ")
 					.replace(/(EffectLink|ItemSprite)-?/g, " ")
 					.replace(/-link=[a-z]*/gi, " ")
 					.replace(/\* /g, " \n(>>)")
-					.replace(/hp\\-(\d{0,5})/g, "$1♥ "),
+					.replace(/hp\\-(\d{0,5})/g, "$1♥ ")
+					.replace(/\<br\\\-\>/g, "\n"),
 			};
 	return result;
 };
 
 const formatValues = (object) => {
 	let str = "";
-	for(const key in object){
-		if(!object[key].trim()) continue;
-		str += `${key.toUpperCase()}: ${object[key]} \n`
+	for (const key in object) {
+		if (!object[key].trim()) continue;
+		str += `${key.toUpperCase()}: ${object[key]} \n`;
 	}
 	return str;
-}
+};
 
 const getInfoJSON = (name) =>
 	new Promise((resolve) => {
