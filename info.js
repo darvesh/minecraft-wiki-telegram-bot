@@ -39,7 +39,7 @@ const filterValues = (values) => {
 					.replace(/-link=[a-z]*/gi, " ")
 					.replace(/\* /g, " \n(>>)")
 					.replace(/hp\\-(\d{0,5})/g, "$1♥ ")
-					.replace(/\<br\\\-\>/g, "\n"),
+					.replace(/\<br\\\-\>/g, ", "),
 			};
 	return result;
 };
