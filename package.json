@@ -1,20 +1,23 @@
 {
-  "name": "minecraft",
-  "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node main.js"
-  },
-  "keywords": [],
-  "author": "Darvesh",
-  "license": "MIT",
-  "dependencies": {
-    "escape-html": "^1.0.3",
-    "fuse.js": "^5.1.0",
-    "jsdom": "^16.2.2",
-    "node-fetch": "^2.6.0",
-    "parse-wikitext": "^1.0.0",
-    "telegraf": "^3.37.0"
-  }
+	"name": "minecraft-wiki-bot",
+	"version": "1.9.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node main.js"
+	},
+	"keywords": [
+		"minecraft",
+		"telegram",
+		"bot",
+		"wiki"
+	],
+	"author": "Darvesh",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"jsdom": "^16.2.2",
+		"ramda": "^0.27.0",
+		"telegraf": "^3.37.0"
+	}
 }
