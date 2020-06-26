@@ -1,8 +1,6 @@
-resources
 node_modules
+old
+test*
 config.js
-index.js
-mc_default.png
-mc.json
 package-lock.json
-utils.js
+
