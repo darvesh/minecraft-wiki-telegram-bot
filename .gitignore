@@ -2,3 +2,5 @@ node_modules
 old
 test*
 config.js
+package-lock.json
+
