@@ -2,9 +2,9 @@
 	"name": "minecraft-wiki-bot",
 	"version": "2.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "app.js",
 	"scripts": {
-		"start": "node main.js"
+		"start": "node app.js"
 	},
 	"keywords": [
 		"minecraft",
