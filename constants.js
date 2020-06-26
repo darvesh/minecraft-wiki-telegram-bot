@@ -7,13 +7,25 @@ module.exports.picks = [
 	"heals",
 	"drops",
 	"damage",
-	"behaviour",
-	"Health points",
+	"behavior",
+	"health points",
 	"knockback resistance",
 	"spawn",
 	"attack strength",
 	"usable items",
 	"transparency",
+	"rarity color",
+	"tool",
+	"luminant",
+	"transparent",
+	"hardness",
+	"catches fire from lava",
+	"flammable",
+	"natural equipment",
+	"latest version",
+	"written in",
+	"type",
+	"restores",
 ];
 
 module.exports.escapablesText = [
@@ -28,6 +40,11 @@ module.exports.escapablesText = [
 	"\\)",
 	"\\.",
 	"\\!",
+	"\\{",
+	"\\}",
+	"\\>",
+	"\\<",
+	"\\+",
 ];
 
 module.exports.escapablesURL = ["\\(", "\\(", "\\)", "\\!", "\\[", "\\]"];

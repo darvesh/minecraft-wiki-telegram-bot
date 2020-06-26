@@ -6,8 +6,9 @@ const {
 	downloadPage,
 	getThumbnail,
 	getDescription,
-	formatMessage,
 	escape,
+	getAdditionalInfo,
+	formatMessage,
 } = require("./utils");
 
 const bot = new telegraf(BOT_TOKEN);
@@ -19,13 +20,15 @@ bot.on(
 		const response = await Promise.all(
 			result.map(async ([itemName, itemPageLink], index) => {
 				const dom = await downloadPage(itemPageLink);
-				const description = await getDescription(dom);
-				const imageURL = await getThumbnail(dom);
+				const description = getDescription(dom);
+				const imageURL = getThumbnail(dom);
+				const additionalInfo = getAdditionalInfo(dom);
 				const formattedMessage = formatMessage(
 					itemName,
 					imageURL,
 					description,
-					itemPageLink
+					itemPageLink,
+					additionalInfo
 				);
 				return {
 					inline_query_id: id,
@@ -36,7 +39,6 @@ bot.on(
 					title: escape(itemName),
 					parse_mode: "MarkdownV2",
 					message_text: formattedMessage,
-					cache_time: 0,
 				};
 			})
 		);
