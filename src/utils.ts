@@ -35,11 +35,11 @@ const search = async (query: string): Promise<Array<[string, string]>> => {
 	return zip(response[1], response[3]);
 };
 
-const getThumbnail = <T>(dom:T):string => {
+const getThumbnail = (dom:JSDOM):string => {
 	try {
 		const imageURL = dom.window.document.querySelector(
 			"meta[property='og:image']"
-		).content;
+		).getAttribute("content");
 		if (imageURL) return imageURL;
 		throw new Error("No image found");
 	} catch (error) {
@@ -48,7 +48,7 @@ const getThumbnail = <T>(dom:T):string => {
 	}
 };
 
-const getDescription = (dom) => {
+const getDescription = (dom:JSDOM) => {
 	try {
 		const description = dom.window.document.querySelector(
 			"#mw-content-text > div > p"
@@ -64,13 +64,13 @@ const removeBrackets = (text:string) => text.replace(/\{|\}/g, "");
 
 const filter = pipe(trim, escape);
 
-const getAdditionalInfo = (dom) => {
+const getAdditionalInfo = (dom:JSDOM):string => {
 	const infoBox = Array.from(
 		dom.window.document.querySelectorAll("table > tbody > tr"),
 		(e) =>
 			e && e.textContent
 				? e.textContent.split(/\s{3,}/).map((a) => a.trim() + " ")
-				: false
+				: []
 	);
 	const extract = infoBox.reduce(
 		(acc, [name, description = "not available"]) => {
