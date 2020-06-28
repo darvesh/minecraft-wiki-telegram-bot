@@ -56,7 +56,7 @@ bot.on(
 
 bot.catch((err: Error) => {
 	const date = new Date();
-	console.error(`${date.toDateString()} : ${err.message}`);
+	console.error(`${date.toString()} : ${err.message}`);
 });
 
 void bot.launch().then(() => console.info("Bot started...\n"));
