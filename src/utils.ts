@@ -46,21 +46,15 @@ const removeBrackets = (text: string) => text.replace(/\{|\}/g, "");
 
 const filter = pipe(trim, escape);
 
-const getAdditionalInfo = (dom: JSDOM): string => {
+const getAdditionalInfo = ({ window: { document } }: JSDOM): string => {
 	const infoBox = Array.from(
-		dom.window.document.querySelectorAll("table > tbody > tr"),
-		e =>
-			e && e.textContent
-				? e.textContent.split(/\s{3,}/).map(a => a.trim() + " ")
-				: []
+		document.querySelectorAll("table > tbody > tr"),
+		node =>
+			node?.textContent?.split(/\s{3,}/).map(a => `${a.trim()} `) ?? []
 	);
 	const extract = infoBox.reduce(
 		(acc, [name, description = "not available"]) => {
-			if (
-				name &&
-				picks.includes(name.trim().toLowerCase()) &&
-				description.trim().length
-			) {
+			if (name && picks.includes(name.trim().toLowerCase())) {
 				acc += `*${filter(name)}*: _{${filter(description)}}_\n${escape(
 					"──────────────────────────"
 				)}\n`;
@@ -77,11 +71,11 @@ const formatMessage = (
 	imageURL: string,
 	description: string,
 	itemPageURL: string,
-	getAdditionalInfo: string
+	additionalInfo: string
 ) => {
 	// there is zero-width char in image url title
 	const message = `*${escape(itemName)}* 
-	_${escape(description)}_ [​](${escapeURL(imageURL)}) \n${getAdditionalInfo}
+	_${escape(description)}_ [​](${escapeURL(imageURL)}) \n${additionalInfo}
 	[Visit Wiki Page](${escapeURL(itemPageURL)})`;
 	return message;
 };
