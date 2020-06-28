@@ -25,7 +25,7 @@ export const picks = [
 	"latest version",
 	"written in",
 	"type",
-	"restores",
+	"restores"
 ];
 
 export const escapablesText = [
@@ -44,7 +44,7 @@ export const escapablesText = [
 	"\\}",
 	"\\>",
 	"\\<",
-	"\\+",
+	"\\+"
 ];
 
 export const escapablesURL = ["\\(", "\\(", "\\)", "\\!", "\\[", "\\]"];
