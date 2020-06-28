@@ -1,4 +1,4 @@
-module.exports.picks = [
+export const picks = [
 	"durability",
 	"renewable",
 	"rarity",
@@ -25,10 +25,10 @@ module.exports.picks = [
 	"latest version",
 	"written in",
 	"type",
-	"restores",
+	"restores"
 ];
 
-module.exports.escapablesText = [
+export const escapablesText = [
 	"\\_",
 	"\\-",
 	"\\=",
@@ -44,7 +44,7 @@ module.exports.escapablesText = [
 	"\\}",
 	"\\>",
 	"\\<",
-	"\\+",
+	"\\+"
 ];
 
-module.exports.escapablesURL = ["\\(", "\\(", "\\)", "\\!", "\\[", "\\]"];
+export const escapablesURL = ["\\(", "\\(", "\\)", "\\!", "\\[", "\\]"];

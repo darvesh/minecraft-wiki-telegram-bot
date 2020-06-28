@@ -1,6 +1,6 @@
 node_modules
 old
 test*
-config.js
+src/config.ts
 package-lock.json
-
+build
