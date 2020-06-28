@@ -1,8 +1,8 @@
 import { JSDOM } from "jsdom";
 import axios from "axios";
-import zip from "ramda/src/zip";
-import pipe from "ramda/src/pipe";
-import trim from "ramda/src/trim";
+import { zip } from "ramda";
+import { pipe } from "ramda";
+import { trim } from "ramda";
 
 import { escapablesText, escapablesURL, picks } from "./constants";
 
