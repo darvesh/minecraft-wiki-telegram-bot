@@ -18,7 +18,7 @@ const bot = new telegraf(BOT_TOKEN);
 
 bot.on(
 	"inline_query",
-	async ({ inlineQuery: { query }, answerInlineQuery }) => {
+	async ({ inlineQuery: { query } = { query: "" }, answerInlineQuery }) => {
 		const result = await search(query);
 		const response = await Promise.all(
 			result.map(
@@ -54,4 +54,9 @@ bot.on(
 	}
 );
 
-void bot.launch();
+bot.catch((err: Error) => {
+	const date = new Date();
+	console.error(`${date.toDateString()} : ${err.message}`);
+});
+
+void bot.launch().then(() => console.info("Bot started...\n"));
