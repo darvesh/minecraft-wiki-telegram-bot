@@ -1,24 +1,26 @@
-const { JSDOM } = require("jsdom");
-const axios = require("axios");
-const zip = require("ramda/src/zip");
-const pipe = require("ramda/src/pipe");
-const trim = require("ramda/src/trim");
+import { JSDOM } from "jsdom";
+import axios from "axios";
+import zip from "ramda/src/zip";
+import pipe from "ramda/src/pipe";
+import trim from "ramda/src/trim";
 
 const { escapablesText, escapablesURL, picks } = require("./constants");
 
 const textRegex = new RegExp(`(${escapablesText.join("|")})`, "g");
-const escape = (text) => text.replace(textRegex, "\\$1");
+const escape = (text: string) => text.replace(textRegex, "\\$1");
 
 const urlRegex = new RegExp(`(${escapablesURL.join("|")})`, "g");
-const escapeURL = (text) => text.replace(urlRegex, "\\$1");
+const escapeURL = (text: string) => text.replace(urlRegex, "\\$1");
 
-const downloadPage = async (url) => {
+
+
+const downloadPage = async (url: string) => {
 	const response = await axios(url).then((res) => res.data);
 	const dom = new JSDOM(response);
 	return dom;
 };
 
-const search = async (query) => {
+const search = async (query: string): Promise<Array<[string, string]>> => {
 	const response = await axios
 		.get(
 			`https://minecraft.gamepedia.com/api.php?action=opensearch&format=json&formatversion=2&search=${query}&namespace=0%7C10000%7C10002&limit=4&suggest=true`,
@@ -33,7 +35,7 @@ const search = async (query) => {
 	return zip(response[1], response[3]);
 };
 
-const getThumbnail = (dom) => {
+const getThumbnail = <T>(dom:T):string => {
 	try {
 		const imageURL = dom.window.document.querySelector(
 			"meta[property='og:image']"
@@ -58,7 +60,7 @@ const getDescription = (dom) => {
 	}
 };
 
-const removeBrackets = (text) => text.replace(/\{|\}/g, "");
+const removeBrackets = (text:string) => text.replace(/\{|\}/g, "");
 
 const filter = pipe(trim, escape);
 
@@ -89,11 +91,11 @@ const getAdditionalInfo = (dom) => {
 };
 
 const formatMessage = (
-	itemName,
-	imageURL,
-	description,
-	itemPageURL,
-	getAdditionalInfo
+	itemName:string,
+	imageURL:string,
+	description:string,
+	itemPageURL:string,
+	getAdditionalInfo:string
 ) => {
 	// there is zero-width char in image url title
 	const message = `*${escape(itemName)}* 
@@ -102,7 +104,7 @@ const formatMessage = (
 	return message;
 };
 
-module.exports = {
+export {
 	search,
 	downloadPage,
 	getThumbnail,

@@ -1,7 +1,6 @@
-const telegraf = require("telegraf");
-
-const { BOT_TOKEN } = require("./config");
-const {
+import telegraf from "telegraf";
+import { BOT_TOKEN } from "./config";
+import {
 	search,
 	downloadPage,
 	getThumbnail,
@@ -9,7 +8,7 @@ const {
 	escape,
 	getAdditionalInfo,
 	formatMessage,
-} = require("./utils");
+} from "./utils";
 
 const bot = new telegraf(BOT_TOKEN);
 
@@ -18,7 +17,7 @@ bot.on(
 	async ({ inlineQuery: { query, id }, answerInlineQuery }) => {
 		const result = await search(query);
 		const response = await Promise.all(
-			result.map(async ([itemName, itemPageLink], index) => {
+			result.map(async ([itemName, itemPageLink], index: number) => {
 				const dom = await downloadPage(itemPageLink);
 				const description = getDescription(dom);
 				const imageURL = getThumbnail(dom);
