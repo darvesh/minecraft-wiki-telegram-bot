@@ -52,18 +52,21 @@ const getAdditionalInfo = ({ window: { document } }: JSDOM): string => {
 		node =>
 			node?.textContent?.split(/\s{3,}/).map(a => `${a.trim()} `) ?? []
 	);
-	const extract = infoBox.reduce(
-		(acc, [name, description = "not available"]) => {
-			if (name && picks.includes(name.trim().toLowerCase())) {
-				acc += `*${filter(name)}*: _{${filter(description)}}_\n${escape(
-					"──────────────────────────"
-				)}\n`;
-			}
-			return acc;
-		},
-		""
-	);
-	return removeBrackets(extract);
+	const extract = infoBox.reduce((acc, [name, description]) => {
+		if (
+			name &&
+			description &&
+			description.trim() &&
+			picks.includes(name.trim().toLowerCase())
+		) {
+			acc += `*${filter(name)}*: _{${filter(description)}}\\._\n${escape(
+				"──────────────────────────"
+			)}\n`;
+		}
+		return acc;
+	}, "");
+	const k = removeBrackets(extract);
+	return k;
 };
 
 const formatMessage = (
