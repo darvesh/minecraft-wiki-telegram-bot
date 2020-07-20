@@ -1,6 +1,3 @@
-// types
-import { InlineQueryResultArticle } from "telegraf/typings/telegram-types";
-
 import telegraf from "telegraf";
 
 import { BOT_TOKEN } from "./config";
@@ -18,7 +15,11 @@ bot.on("inline_query", async context => {
 	if (query.startsWith("#")) await recipeHandler(context, fuse);
 	else await itemHandler(context);
 });
+
+bot.command("start", context =>
+	context.replyWithHTML(startCommand, { disable_web_page_preview: true })
 );
+bot.command("help", context => context.replyWithHTML(helpCommand));
 
 bot.catch((err: Error) => {
 	const date = new Date();
