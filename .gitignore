@@ -4,3 +4,4 @@ test*
 src/config.ts
 package-lock.json
 build
+recipes

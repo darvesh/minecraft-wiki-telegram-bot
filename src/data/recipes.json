@@ -1,0 +1,12601 @@
+[
+	{
+		"name": "acacia boat",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["acacia planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "boat"
+			}
+		]
+	},
+	{
+		"name": "acacia button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"acacia planks": 1
+				},
+				"group": "wooden button"
+			}
+		]
+	},
+	{
+		"name": "acacia door",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["acacia planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden door"
+			}
+		]
+	},
+	{
+		"name": "acacia fence",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["W#W", "W#W"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["acacia planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence"
+			}
+		]
+	},
+	{
+		"name": "acacia fence gate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#W#", "#W#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["acacia planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence gate"
+			}
+		]
+	},
+	{
+		"name": "acacia planks",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"acacia logs": 1
+				},
+				"group": "planks"
+			}
+		]
+	},
+	{
+		"name": "acacia pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["acacia planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden pressure plate"
+			}
+		]
+	},
+	{
+		"name": "acacia sign",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["###", "###", " X "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["acacia planks"]
+					},
+					{
+						"key": "X",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sign"
+			}
+		]
+	},
+	{
+		"name": "acacia slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["acacia planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden slab"
+			}
+		]
+	},
+	{
+		"name": "acacia stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["acacia planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden stairs"
+			}
+		]
+	},
+	{
+		"name": "acacia trapdoor",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["acacia planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden trapdoor"
+			}
+		]
+	},
+	{
+		"name": "acacia wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["acacia log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "activator rail",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["XSX", "X#X", "XSX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["redstone torch"]
+					},
+					{
+						"key": "S",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "andesite",
+		"value": [
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"diorite": 1,
+					"cobblestone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "andesite slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["andesite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"andesite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "andesite stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["andesite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"andesite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "andesite wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["andesite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"andesite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "anvil",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["III", " i ", "iii"],
+				"keys": [
+					{
+						"key": "I",
+						"item": ["iron block"]
+					},
+					{
+						"key": "i",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "armor stand",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["///", " / ", "/_/"],
+				"keys": [
+					{
+						"key": "/",
+						"item": ["stick"]
+					},
+					{
+						"key": "_",
+						"item": ["smooth stone slab"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "arrow",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["X", "#", "Y"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["flint"]
+					},
+					{
+						"key": "Y",
+						"item": ["feather"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "baked potato",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"potato": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "campfire cooking",
+				"ingredients": {
+					"potato": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 600
+			},
+			{
+				"count": 1,
+				"type": "smoking",
+				"ingredients": {
+					"potato": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "barrel",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["PSP", "P P", "PSP"],
+				"keys": [
+					{
+						"key": "P",
+						"item": ["planks"]
+					},
+					{
+						"key": "S",
+						"item": ["wooden slabs"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "beacon",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["GGG", "GSG", "OOO"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["nether star"]
+					},
+					{
+						"key": "G",
+						"item": ["glass"]
+					},
+					{
+						"key": "O",
+						"item": ["obsidian"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "beehive",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["PPP", "HHH", "PPP"],
+				"keys": [
+					{
+						"key": "P",
+						"item": ["planks"]
+					},
+					{
+						"key": "H",
+						"item": ["honeycomb"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "beetroot soup",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"bowl": 1,
+					"beetroot": 6
+				}
+			}
+		]
+	},
+	{
+		"name": "birch boat",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["birch planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "boat"
+			}
+		]
+	},
+	{
+		"name": "birch button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"birch planks": 1
+				},
+				"group": "wooden button"
+			}
+		]
+	},
+	{
+		"name": "birch door",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["birch planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden door"
+			}
+		]
+	},
+	{
+		"name": "birch fence",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["W#W", "W#W"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["birch planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence"
+			}
+		]
+	},
+	{
+		"name": "birch fence gate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#W#", "#W#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["birch planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence gate"
+			}
+		]
+	},
+	{
+		"name": "birch planks",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"birch logs": 1
+				},
+				"group": "planks"
+			}
+		]
+	},
+	{
+		"name": "birch pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["birch planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden pressure plate"
+			}
+		]
+	},
+	{
+		"name": "birch sign",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["###", "###", " X "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["birch planks"]
+					},
+					{
+						"key": "X",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sign"
+			}
+		]
+	},
+	{
+		"name": "birch slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["birch planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden slab"
+			}
+		]
+	},
+	{
+		"name": "birch stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["birch planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden stairs"
+			}
+		]
+	},
+	{
+		"name": "birch trapdoor",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["birch planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden trapdoor"
+			}
+		]
+	},
+	{
+		"name": "birch wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["birch log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "black banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["black wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "black bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["black wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"black dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "black carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["black wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["black dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "black concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"black dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "black dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"ink sac": 1
+				},
+				"group": "black dye"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"wither rose": 1
+				},
+				"group": "black dye"
+			}
+		]
+	},
+	{
+		"name": "black glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"black terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "black stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["black dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "black stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["black stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["black dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "black terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["black dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "black wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"black dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "blackstone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["blackstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "blackstone stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["blackstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "blackstone wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["blackstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "blast furnace",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["III", "IXI", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["smooth stone"]
+					},
+					{
+						"key": "X",
+						"item": ["furnace"]
+					},
+					{
+						"key": "I",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "blaze powder",
+		"value": [
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blaze rod": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "blue banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["blue wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "blue bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["blue wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"blue dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "blue carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["blue wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["blue dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "blue concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blue dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "blue dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"lapis lazuli": 1
+				},
+				"group": "blue dye"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"cornflower": 1
+				},
+				"group": "blue dye"
+			}
+		]
+	},
+	{
+		"name": "blue glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"blue terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "blue ice",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["packed ice"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "blue stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["blue dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "blue stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["blue stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["blue dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "blue terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["blue dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "blue wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blue dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "bone block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "XXX", "XXX"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["bone meal"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "bone meal",
+		"value": [
+			{
+				"count": 3,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"bone": 1
+				},
+				"group": "bonemeal"
+			},
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"bone block": 1
+				},
+				"group": "bonemeal"
+			}
+		]
+	},
+	{
+		"name": "book",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"paper": 3,
+					"leather": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "bookshelf",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					},
+					{
+						"key": "X",
+						"item": ["book"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "bow",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" #X", "# X", " #X"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["string"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "bowl",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["# #", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "bread",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["wheat"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "brewing stand",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" B ", "###"],
+				"keys": [
+					{
+						"key": "B",
+						"item": ["blaze rod"]
+					},
+					{
+						"key": "#",
+						"item": ["cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "brick",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"clay ball": 1
+				},
+				"experience": 0.3,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "brick slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "brick stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "brick wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "bricks",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["brick"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "brown banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["brown wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "brown bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["brown wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"brown dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "brown carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["brown wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["brown dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "brown concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"brown dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "brown dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"cocoa beans": 1
+				},
+				"group": "brown dye"
+			}
+		]
+	},
+	{
+		"name": "brown glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"brown terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "brown stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["brown dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "brown stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["brown stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["brown dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "brown terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["brown dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "brown wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"brown dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "bucket",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "cake",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["AAA", "BEB", "CCC"],
+				"keys": [
+					{
+						"key": "A",
+						"item": ["milk bucket"]
+					},
+					{
+						"key": "B",
+						"item": ["sugar"]
+					},
+					{
+						"key": "C",
+						"item": ["wheat"]
+					},
+					{
+						"key": "E",
+						"item": ["egg"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "campfire",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" S ", "SCS", "LLL"],
+				"keys": [
+					{
+						"key": "L",
+						"item": ["logs"]
+					},
+					{
+						"key": "S",
+						"item": ["stick"]
+					},
+					{
+						"key": "C",
+						"item": ["coals"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "carrot on a stick",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# ", " X"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["fishing rod"]
+					},
+					{
+						"key": "X",
+						"item": ["carrot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "cartography table",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["@@", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					},
+					{
+						"key": "@",
+						"item": ["paper"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "cauldron",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", "# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "chain",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["N", "I", "N"],
+				"keys": [
+					{
+						"key": "I",
+						"item": ["iron ingot"]
+					},
+					{
+						"key": "N",
+						"item": ["iron nugget"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "charcoal",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"logs that burn": 1
+				},
+				"experience": 0.15,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "chest",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "chest minecart",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["A", "B"],
+				"keys": [
+					{
+						"key": "A",
+						"item": ["chest"]
+					},
+					{
+						"key": "B",
+						"item": ["minecart"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "chiseled nether bricks",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["nether brick slab"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"nether bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "chiseled polished blackstone",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished blackstone slab"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "chiseled quartz block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["quartz slab"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"quartz block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "chiseled red sandstone",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red sandstone slab"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"red sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "chiseled sandstone",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["sandstone slab"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "chiseled stone bricks",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stone brick slab"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "clay",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["clay ball"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "clock",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" # ", "#X#", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gold ingot"]
+					},
+					{
+						"key": "X",
+						"item": ["redstone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "coal",
+		"value": [
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"coal block": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"coal ore": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 100
+			},
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"coal ore": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "coal block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["coal"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "coarse dirt",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["DG", "GD"],
+				"keys": [
+					{
+						"key": "D",
+						"item": ["dirt"]
+					},
+					{
+						"key": "G",
+						"item": ["gravel"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "cobblestone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"cobblestone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "cobblestone stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"cobblestone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "cobblestone wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"cobblestone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "comparator",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" # ", "#X#", "III"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["redstone torch"]
+					},
+					{
+						"key": "X",
+						"item": ["quartz"]
+					},
+					{
+						"key": "I",
+						"item": ["stone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "compass",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" # ", "#X#", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					},
+					{
+						"key": "X",
+						"item": ["redstone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "composter",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", "# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["wooden slabs"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "conduit",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["nautilus shell"]
+					},
+					{
+						"key": "X",
+						"item": ["heart of the sea"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "cooked beef",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"beef": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "campfire cooking",
+				"ingredients": {
+					"beef": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 600
+			},
+			{
+				"count": 1,
+				"type": "smoking",
+				"ingredients": {
+					"beef": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "cooked chicken",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"chicken": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "campfire cooking",
+				"ingredients": {
+					"chicken": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 600
+			},
+			{
+				"count": 1,
+				"type": "smoking",
+				"ingredients": {
+					"chicken": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "cooked cod",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"cod": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "campfire cooking",
+				"ingredients": {
+					"cod": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 600
+			},
+			{
+				"count": 1,
+				"type": "smoking",
+				"ingredients": {
+					"cod": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "cooked mutton",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"mutton": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "campfire cooking",
+				"ingredients": {
+					"mutton": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 600
+			},
+			{
+				"count": 1,
+				"type": "smoking",
+				"ingredients": {
+					"mutton": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "cooked porkchop",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"porkchop": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "campfire cooking",
+				"ingredients": {
+					"porkchop": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 600
+			},
+			{
+				"count": 1,
+				"type": "smoking",
+				"ingredients": {
+					"porkchop": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "cooked rabbit",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"rabbit": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "campfire cooking",
+				"ingredients": {
+					"rabbit": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 600
+			},
+			{
+				"count": 1,
+				"type": "smoking",
+				"ingredients": {
+					"rabbit": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "cooked salmon",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"salmon": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "campfire cooking",
+				"ingredients": {
+					"salmon": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 600
+			},
+			{
+				"count": 1,
+				"type": "smoking",
+				"ingredients": {
+					"salmon": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "cookie",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["#X#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["wheat"]
+					},
+					{
+						"key": "X",
+						"item": ["cocoa beans"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "cracked nether bricks",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"nether bricks": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "cracked polished blackstone bricks",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"polished blackstone bricks": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "cracked stone bricks",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"stone bricks": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "crafting table",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "creeper banner pattern",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"paper": 1,
+					"creeper head": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "crimson button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"crimson planks": 1
+				},
+				"group": "wooden button"
+			}
+		]
+	},
+	{
+		"name": "crimson door",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["crimson planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden door"
+			}
+		]
+	},
+	{
+		"name": "crimson fence",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["W#W", "W#W"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["crimson planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence"
+			}
+		]
+	},
+	{
+		"name": "crimson fence gate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#W#", "#W#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["crimson planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence gate"
+			}
+		]
+	},
+	{
+		"name": "crimson hyphae",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["crimson stem"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "crimson planks",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"crimson stems": 1
+				},
+				"group": "planks"
+			}
+		]
+	},
+	{
+		"name": "crimson pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["crimson planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden pressure plate"
+			}
+		]
+	},
+	{
+		"name": "crimson sign",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["###", "###", " X "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["crimson planks"]
+					},
+					{
+						"key": "X",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sign"
+			}
+		]
+	},
+	{
+		"name": "crimson slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["crimson planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden slab"
+			}
+		]
+	},
+	{
+		"name": "crimson stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["crimson planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden stairs"
+			}
+		]
+	},
+	{
+		"name": "crimson trapdoor",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["crimson planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden trapdoor"
+			}
+		]
+	},
+	{
+		"name": "crossbow",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#&#", "~$~", " # "],
+				"keys": [
+					{
+						"key": "~",
+						"item": ["string"]
+					},
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "&",
+						"item": ["iron ingot"]
+					},
+					{
+						"key": "$",
+						"item": ["tripwire hook"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "cut red sandstone",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"red sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "cut red sandstone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cut red sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"cut red sandstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"red sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "cut sandstone",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "cut sandstone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cut sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"cut sandstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "cyan banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cyan wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "cyan bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cyan wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"cyan dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "cyan carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cyan wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["cyan dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "cyan concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"cyan dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "cyan dye",
+		"value": [
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blue dye": 1,
+					"green dye": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "cyan glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"cyan terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "cyan stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["cyan dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "cyan stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cyan stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["cyan dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "cyan terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["cyan dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "cyan wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"cyan dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "dark oak boat",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "boat"
+			}
+		]
+	},
+	{
+		"name": "dark oak button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"dark oak planks": 1
+				},
+				"group": "wooden button"
+			}
+		]
+	},
+	{
+		"name": "dark oak door",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden door"
+			}
+		]
+	},
+	{
+		"name": "dark oak fence",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["W#W", "W#W"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["dark oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence"
+			}
+		]
+	},
+	{
+		"name": "dark oak fence gate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#W#", "#W#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["dark oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence gate"
+			}
+		]
+	},
+	{
+		"name": "dark oak planks",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"dark oak logs": 1
+				},
+				"group": "planks"
+			}
+		]
+	},
+	{
+		"name": "dark oak pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden pressure plate"
+			}
+		]
+	},
+	{
+		"name": "dark oak sign",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["###", "###", " X "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark oak planks"]
+					},
+					{
+						"key": "X",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sign"
+			}
+		]
+	},
+	{
+		"name": "dark oak slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden slab"
+			}
+		]
+	},
+	{
+		"name": "dark oak stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden stairs"
+			}
+		]
+	},
+	{
+		"name": "dark oak trapdoor",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden trapdoor"
+			}
+		]
+	},
+	{
+		"name": "dark oak wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark oak log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "dark prismarine",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["SSS", "SIS", "SSS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["prismarine shard"]
+					},
+					{
+						"key": "I",
+						"item": ["black dye"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "dark prismarine slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark prismarine"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"dark prismarine": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "dark prismarine stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["dark prismarine"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"dark prismarine": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "daylight detector",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["GGG", "QQQ", "WWW"],
+				"keys": [
+					{
+						"key": "Q",
+						"item": ["quartz"]
+					},
+					{
+						"key": "G",
+						"item": ["glass"]
+					},
+					{
+						"key": "W",
+						"item": ["wooden slabs"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "detector rail",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["X X", "X#X", "XRX"],
+				"keys": [
+					{
+						"key": "R",
+						"item": ["redstone"]
+					},
+					{
+						"key": "#",
+						"item": ["stone pressure plate"]
+					},
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond",
+		"value": [
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"diamond block": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"diamond ore": 1
+				},
+				"experience": 1,
+				"cookingtime": 100
+			},
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"diamond ore": 1
+				},
+				"experience": 1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "diamond axe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", "X#", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond boots",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X X", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond chestplate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X X", "XXX", "XXX"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond helmet",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond hoe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", " #", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond leggings",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X X", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond pickaxe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", " # ", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond shovel",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diamond sword",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "X", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diorite",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["CQ", "QC"],
+				"keys": [
+					{
+						"key": "Q",
+						"item": ["quartz"]
+					},
+					{
+						"key": "C",
+						"item": ["cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "diorite slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["diorite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"diorite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "diorite stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["diorite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"diorite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "diorite wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["diorite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"diorite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "dispenser",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "#R#"],
+				"keys": [
+					{
+						"key": "R",
+						"item": ["redstone"]
+					},
+					{
+						"key": "#",
+						"item": ["cobblestone"]
+					},
+					{
+						"key": "X",
+						"item": ["bow"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "dried kelp",
+		"value": [
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"dried kelp block": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "campfire cooking",
+				"ingredients": {
+					"kelp": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 600
+			},
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"kelp": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "smoking",
+				"ingredients": {
+					"kelp": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "dried kelp block",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"dried kelp": 9
+				}
+			}
+		]
+	},
+	{
+		"name": "dropper",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "# #", "#R#"],
+				"keys": [
+					{
+						"key": "R",
+						"item": ["redstone"]
+					},
+					{
+						"key": "#",
+						"item": ["cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "emerald",
+		"value": [
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"emerald block": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"emerald ore": 1
+				},
+				"experience": 1,
+				"cookingtime": 100
+			},
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"emerald ore": 1
+				},
+				"experience": 1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "emerald block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["emerald"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "enchanting table",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" B ", "D#D", "###"],
+				"keys": [
+					{
+						"key": "B",
+						"item": ["book"]
+					},
+					{
+						"key": "#",
+						"item": ["obsidian"]
+					},
+					{
+						"key": "D",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "end crystal",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["GGG", "GEG", "GTG"],
+				"keys": [
+					{
+						"key": "T",
+						"item": ["ghast tear"]
+					},
+					{
+						"key": "E",
+						"item": ["ender eye"]
+					},
+					{
+						"key": "G",
+						"item": ["glass"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "end rod",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["/", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["popped chorus fruit"]
+					},
+					{
+						"key": "/",
+						"item": ["blaze rod"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "end stone brick slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["end stone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"end stone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"end stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "end stone brick stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["end stone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"end stone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"end stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "end stone brick wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["end stone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"end stone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"end stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "end stone bricks",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["end stone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"end stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "ender chest",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#E#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["obsidian"]
+					},
+					{
+						"key": "E",
+						"item": ["ender eye"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "ender eye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"ender pearl": 1,
+					"blaze powder": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "fermented spider eye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"spider eye": 1,
+					"brown mushroom": 1,
+					"sugar": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "fire charge",
+		"value": [
+			{
+				"count": 3,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"gunpowder": 1,
+					"blaze powder": 1,
+					"coal or charcoal": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "fishing rod",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["  #", " #X", "# X"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["string"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "fletching table",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["@@", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					},
+					{
+						"key": "@",
+						"item": ["flint"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "flint and steel",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"iron ingot": 1,
+					"flint": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "flower banner pattern",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"paper": 1,
+					"oxeye daisy": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "flower pot",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["brick"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "furnace",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["furnace materials"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "furnace minecart",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["A", "B"],
+				"keys": [
+					{
+						"key": "A",
+						"item": ["furnace"]
+					},
+					{
+						"key": "B",
+						"item": ["minecart"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "glass",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"sand": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "glass bottle",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["# #", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "glistering melon slice",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gold nugget"]
+					},
+					{
+						"key": "X",
+						"item": ["melon slice"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "glowstone",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glowstone dust"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "gold block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "gold ingot",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"gold ores": 1
+				},
+				"experience": 1,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"gold ores": 1
+				},
+				"experience": 1,
+				"cookingtime": 100
+			},
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"gold block": 1
+				},
+				"group": "gold ingot"
+			},
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gold nugget"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "gold ingot"
+			}
+		]
+	},
+	{
+		"name": "gold nugget",
+		"value": [
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"gold ingot": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"golden pickaxe": 1,
+					"golden shovel": 1,
+					"golden axe": 1,
+					"golden hoe": 1,
+					"golden sword": 1,
+					"golden helmet": 1,
+					"golden chestplate": 1,
+					"golden leggings": 1,
+					"golden boots": 1,
+					"golden horse armor": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 100
+			},
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"golden pickaxe": 1,
+					"golden shovel": 1,
+					"golden axe": 1,
+					"golden hoe": 1,
+					"golden sword": 1,
+					"golden helmet": 1,
+					"golden chestplate": 1,
+					"golden leggings": 1,
+					"golden boots": 1,
+					"golden horse armor": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "golden apple",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gold ingot"]
+					},
+					{
+						"key": "X",
+						"item": ["apple"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden axe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", "X#", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden boots",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X X", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden carrot",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gold nugget"]
+					},
+					{
+						"key": "X",
+						"item": ["carrot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden chestplate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X X", "XXX", "XXX"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden helmet",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden hoe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", " #", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden leggings",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X X", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden pickaxe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", " # ", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden shovel",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "golden sword",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "X", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "granite",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"diorite": 1,
+					"quartz": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "granite slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["granite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"granite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "granite stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["granite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"granite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "granite wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["granite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"granite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "gray banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gray wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "gray bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gray wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"gray dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "gray carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gray wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["gray dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "gray concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"gray dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "gray dye",
+		"value": [
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"black dye": 1,
+					"white dye": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "gray glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"gray terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "gray stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["gray dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "gray stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gray stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["gray dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "gray terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["gray dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "gray wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"gray dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "green banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["green wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "green bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["green wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"green dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "green carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["green wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["green dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "green concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"green dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "green dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"cactus": 1
+				},
+				"experience": 1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "green glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"green terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "green stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["green dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "green stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["green stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["green dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "green terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["green dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "green wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"green dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "grindstone",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["I-I", "# #"],
+				"keys": [
+					{
+						"key": "I",
+						"item": ["stick"]
+					},
+					{
+						"key": "-",
+						"item": ["stone slab"]
+					},
+					{
+						"key": "#",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "hay block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["wheat"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "heavy weighted pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "honey block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["SS", "SS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["honey bottle"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "honey bottle",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"honey block": 1,
+					"glass bottle": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "honeycomb block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["HH", "HH"],
+				"keys": [
+					{
+						"key": "H",
+						"item": ["honeycomb"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "hopper",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["I I", "ICI", " I "],
+				"keys": [
+					{
+						"key": "C",
+						"item": ["chest"]
+					},
+					{
+						"key": "I",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "hopper minecart",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["A", "B"],
+				"keys": [
+					{
+						"key": "A",
+						"item": ["hopper"]
+					},
+					{
+						"key": "B",
+						"item": ["minecart"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron axe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", "X#", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron bars",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron boots",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X X", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron chestplate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X X", "XXX", "XXX"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron door",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron helmet",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron hoe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", " #", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron ingot",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"iron ore": 1
+				},
+				"experience": 0.7,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"iron ore": 1
+				},
+				"experience": 0.7,
+				"cookingtime": 100
+			},
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"iron block": 1
+				},
+				"group": "iron ingot"
+			},
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron nugget"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "iron ingot"
+			}
+		]
+	},
+	{
+		"name": "iron leggings",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X X", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron nugget",
+		"value": [
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"iron ingot": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"iron pickaxe": 1,
+					"iron shovel": 1,
+					"iron axe": 1,
+					"iron hoe": 1,
+					"iron sword": 1,
+					"iron helmet": 1,
+					"iron chestplate": 1,
+					"iron leggings": 1,
+					"iron boots": 1,
+					"iron horse armor": 1,
+					"chainmail helmet": 1,
+					"chainmail chestplate": 1,
+					"chainmail leggings": 1,
+					"chainmail boots": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 100
+			},
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"iron pickaxe": 1,
+					"iron shovel": 1,
+					"iron axe": 1,
+					"iron hoe": 1,
+					"iron sword": 1,
+					"iron helmet": 1,
+					"iron chestplate": 1,
+					"iron leggings": 1,
+					"iron boots": 1,
+					"iron horse armor": 1,
+					"chainmail helmet": 1,
+					"chainmail chestplate": 1,
+					"chainmail leggings": 1,
+					"chainmail boots": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "iron pickaxe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", " # ", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron shovel",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron sword",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "X", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "iron trapdoor",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "item frame",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["leather"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "jack o lantern",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["A", "B"],
+				"keys": [
+					{
+						"key": "A",
+						"item": ["carved pumpkin"]
+					},
+					{
+						"key": "B",
+						"item": ["torch"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "jukebox",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					},
+					{
+						"key": "X",
+						"item": ["diamond"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "jungle boat",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["jungle planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "boat"
+			}
+		]
+	},
+	{
+		"name": "jungle button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"jungle planks": 1
+				},
+				"group": "wooden button"
+			}
+		]
+	},
+	{
+		"name": "jungle door",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["jungle planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden door"
+			}
+		]
+	},
+	{
+		"name": "jungle fence",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["W#W", "W#W"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["jungle planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence"
+			}
+		]
+	},
+	{
+		"name": "jungle fence gate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#W#", "#W#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["jungle planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence gate"
+			}
+		]
+	},
+	{
+		"name": "jungle planks",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"jungle logs": 1
+				},
+				"group": "planks"
+			}
+		]
+	},
+	{
+		"name": "jungle pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["jungle planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden pressure plate"
+			}
+		]
+	},
+	{
+		"name": "jungle sign",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["###", "###", " X "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["jungle planks"]
+					},
+					{
+						"key": "X",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sign"
+			}
+		]
+	},
+	{
+		"name": "jungle slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["jungle planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden slab"
+			}
+		]
+	},
+	{
+		"name": "jungle stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["jungle planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden stairs"
+			}
+		]
+	},
+	{
+		"name": "jungle trapdoor",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["jungle planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden trapdoor"
+			}
+		]
+	},
+	{
+		"name": "jungle wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["jungle log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "ladder",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["# #", "###", "# #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "lantern",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X#X", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["torch"]
+					},
+					{
+						"key": "X",
+						"item": ["iron nugget"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "lapis block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["lapis lazuli"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "lapis lazuli",
+		"value": [
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"lapis ore": 1
+				},
+				"experience": 0.2,
+				"cookingtime": 100
+			},
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"lapis ore": 1
+				},
+				"experience": 0.2,
+				"cookingtime": 200
+			},
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"lapis block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "lead",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["~~ ", "~O ", "  ~"],
+				"keys": [
+					{
+						"key": "~",
+						"item": ["string"]
+					},
+					{
+						"key": "O",
+						"item": ["slime ball"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "leather",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["rabbit hide"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "leather boots",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X X", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["leather"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "leather chestplate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X X", "XXX", "XXX"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["leather"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "leather helmet",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["leather"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "leather horse armor",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X X", "XXX", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["leather"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "leather leggings",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X X", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["leather"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "lectern",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["SSS", " B ", " S "],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["wooden slabs"]
+					},
+					{
+						"key": "B",
+						"item": ["bookshelf"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "lever",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["cobblestone"]
+					},
+					{
+						"key": "X",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "light blue banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["light blue wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "light blue bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["light blue wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"light blue dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "light blue carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["light blue wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["light blue dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "light blue concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"light blue dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "light blue dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blue orchid": 1
+				},
+				"group": "light blue dye"
+			},
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blue dye": 1,
+					"white dye": 1
+				},
+				"group": "light blue dye"
+			}
+		]
+	},
+	{
+		"name": "light blue glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"light blue terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "light blue stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["light blue dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "light blue stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["light blue stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["light blue dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "light blue terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["light blue dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "light blue wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"light blue dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "light gray banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["light gray wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "light gray bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["light gray wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"light gray dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "light gray carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["light gray wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["light gray dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "light gray concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"light gray dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "light gray dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"azure bluet": 1
+				},
+				"group": "light gray dye"
+			},
+			{
+				"count": 3,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"black dye": 1,
+					"white dye": 2
+				},
+				"group": "light gray dye"
+			},
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"gray dye": 1,
+					"white dye": 1
+				},
+				"group": "light gray dye"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"oxeye daisy": 1
+				},
+				"group": "light gray dye"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white tulip": 1
+				},
+				"group": "light gray dye"
+			}
+		]
+	},
+	{
+		"name": "light gray glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"light gray terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "light gray stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["light gray dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "light gray stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["light gray stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["light gray dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "light gray terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["light gray dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "light gray wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"light gray dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "light weighted pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "lime banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["lime wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "lime bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["lime wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"lime dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "lime carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["lime wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["lime dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "lime concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"lime dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "lime dye",
+		"value": [
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"green dye": 1,
+					"white dye": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"sea pickle": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "lime glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"lime terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "lime stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["lime dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "lime stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["lime stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["lime dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "lime terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["lime dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "lime wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"lime dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "lodestone",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["SSS", "S#S", "SSS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["chiseled stone bricks"]
+					},
+					{
+						"key": "#",
+						"item": ["netherite ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "loom",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["@@", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					},
+					{
+						"key": "@",
+						"item": ["string"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "magenta banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["magenta wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "magenta bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["magenta wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"magenta dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "magenta carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["magenta wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["magenta dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "magenta concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"magenta dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "magenta dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"allium": 1
+				},
+				"group": "magenta dye"
+			},
+			{
+				"count": 3,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blue dye": 1,
+					"red dye": 1,
+					"pink dye": 1
+				},
+				"group": "magenta dye"
+			},
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blue dye": 1,
+					"red dye": 2,
+					"white dye": 1
+				},
+				"group": "magenta dye"
+			},
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"lilac": 1
+				},
+				"group": "magenta dye"
+			},
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"purple dye": 1,
+					"pink dye": 1
+				},
+				"group": "magenta dye"
+			}
+		]
+	},
+	{
+		"name": "magenta glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"magenta terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "magenta stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["magenta dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "magenta stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["magenta stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["magenta dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "magenta terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["magenta dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "magenta wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"magenta dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "magma block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["magma cream"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "magma cream",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blaze powder": 1,
+					"slime ball": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "map",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["paper"]
+					},
+					{
+						"key": "X",
+						"item": ["compass"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "melon",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["MMM", "MMM", "MMM"],
+				"keys": [
+					{
+						"key": "M",
+						"item": ["melon slice"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "melon seeds",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"melon slice": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "minecart",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "mojang banner pattern",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"paper": 1,
+					"enchanted golden apple": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "mossy cobblestone",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"cobblestone": 1,
+					"vine": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "mossy cobblestone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["mossy cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"mossy cobblestone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "mossy cobblestone stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["mossy cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"mossy cobblestone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "mossy cobblestone wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["mossy cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"mossy cobblestone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "mossy stone brick slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["mossy stone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"mossy stone bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "mossy stone brick stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["mossy stone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"mossy stone bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "mossy stone brick wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["mossy stone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"mossy stone bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "mossy stone bricks",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"stone bricks": 1,
+					"vine": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "mushroom stew",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"brown mushroom": 1,
+					"red mushroom": 1,
+					"bowl": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "nether brick",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"netherrack": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "nether brick fence",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["#-#", "#-#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["nether bricks"]
+					},
+					{
+						"key": "-",
+						"item": ["nether brick"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "nether brick slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["nether bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"nether bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "nether brick stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["nether bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"nether bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "nether brick wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["nether bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"nether bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "nether bricks",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["NN", "NN"],
+				"keys": [
+					{
+						"key": "N",
+						"item": ["nether brick"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "nether wart block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["nether wart"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "netherite axe",
+		"value": [
+			{
+				"type": "smithing",
+				"base": "diamond axe",
+				"addition": "netherite ingot",
+				"count": 1
+			}
+		]
+	},
+	{
+		"name": "netherite block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["netherite ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "netherite boots",
+		"value": [
+			{
+				"type": "smithing",
+				"base": "diamond boots",
+				"addition": "netherite ingot",
+				"count": 1
+			}
+		]
+	},
+	{
+		"name": "netherite chestplate",
+		"value": [
+			{
+				"type": "smithing",
+				"base": "diamond chestplate",
+				"addition": "netherite ingot",
+				"count": 1
+			}
+		]
+	},
+	{
+		"name": "netherite helmet",
+		"value": [
+			{
+				"type": "smithing",
+				"base": "diamond helmet",
+				"addition": "netherite ingot",
+				"count": 1
+			}
+		]
+	},
+	{
+		"name": "netherite hoe",
+		"value": [
+			{
+				"type": "smithing",
+				"base": "diamond hoe",
+				"addition": "netherite ingot",
+				"count": 1
+			}
+		]
+	},
+	{
+		"name": "netherite ingot",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"netherite scrap": 4,
+					"gold ingot": 4
+				},
+				"group": "netherite ingot"
+			},
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"netherite block": 1
+				},
+				"group": "netherite ingot"
+			}
+		]
+	},
+	{
+		"name": "netherite leggings",
+		"value": [
+			{
+				"type": "smithing",
+				"base": "diamond leggings",
+				"addition": "netherite ingot",
+				"count": 1
+			}
+		]
+	},
+	{
+		"name": "netherite pickaxe",
+		"value": [
+			{
+				"type": "smithing",
+				"base": "diamond pickaxe",
+				"addition": "netherite ingot",
+				"count": 1
+			}
+		]
+	},
+	{
+		"name": "netherite scrap",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"ancient debris": 1
+				},
+				"experience": 2,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"ancient debris": 1
+				},
+				"experience": 2,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "netherite shovel",
+		"value": [
+			{
+				"type": "smithing",
+				"base": "diamond shovel",
+				"addition": "netherite ingot",
+				"count": 1
+			}
+		]
+	},
+	{
+		"name": "netherite sword",
+		"value": [
+			{
+				"type": "smithing",
+				"base": "diamond sword",
+				"addition": "netherite ingot",
+				"count": 1
+			}
+		]
+	},
+	{
+		"name": "note block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					},
+					{
+						"key": "X",
+						"item": ["redstone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "oak boat",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "boat"
+			}
+		]
+	},
+	{
+		"name": "oak button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"oak planks": 1
+				},
+				"group": "wooden button"
+			}
+		]
+	},
+	{
+		"name": "oak door",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden door"
+			}
+		]
+	},
+	{
+		"name": "oak fence",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["W#W", "W#W"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence"
+			}
+		]
+	},
+	{
+		"name": "oak fence gate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#W#", "#W#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence gate"
+			}
+		]
+	},
+	{
+		"name": "oak planks",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"oak logs": 1
+				},
+				"group": "planks"
+			}
+		]
+	},
+	{
+		"name": "oak pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden pressure plate"
+			}
+		]
+	},
+	{
+		"name": "oak sign",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["###", "###", " X "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["oak planks"]
+					},
+					{
+						"key": "X",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sign"
+			}
+		]
+	},
+	{
+		"name": "oak slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden slab"
+			}
+		]
+	},
+	{
+		"name": "oak stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden stairs"
+			}
+		]
+	},
+	{
+		"name": "oak trapdoor",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["oak planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden trapdoor"
+			}
+		]
+	},
+	{
+		"name": "oak wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["oak log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "observer",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "RRQ", "###"],
+				"keys": [
+					{
+						"key": "Q",
+						"item": ["quartz"]
+					},
+					{
+						"key": "R",
+						"item": ["redstone"]
+					},
+					{
+						"key": "#",
+						"item": ["cobblestone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "orange banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["orange wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "orange bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["orange wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"orange dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "orange carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["orange wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["orange dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "orange concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"orange dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "orange dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"orange tulip": 1
+				},
+				"group": "orange dye"
+			},
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"red dye": 1,
+					"yellow dye": 1
+				},
+				"group": "orange dye"
+			}
+		]
+	},
+	{
+		"name": "orange glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"orange terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "orange stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["orange dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "orange stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["orange stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["orange dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "orange terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["orange dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "orange wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"orange dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "packed ice",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"ice": 9
+				}
+			}
+		]
+	},
+	{
+		"name": "painting",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["wool"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "paper",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["sugar cane"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "pink banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["pink wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "pink bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["pink wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"pink dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "pink carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["pink wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["pink dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "pink concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"pink dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "pink dye",
+		"value": [
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"peony": 1
+				},
+				"group": "pink dye"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"pink tulip": 1
+				},
+				"group": "pink dye"
+			},
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"red dye": 1,
+					"white dye": 1
+				},
+				"group": "pink dye"
+			}
+		]
+	},
+	{
+		"name": "pink glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"pink terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "pink stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["pink dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "pink stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["pink stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["pink dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "pink terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["pink dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "pink wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"pink dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "piston",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["TTT", "#X#", "#R#"],
+				"keys": [
+					{
+						"key": "R",
+						"item": ["redstone"]
+					},
+					{
+						"key": "#",
+						"item": ["cobblestone"]
+					},
+					{
+						"key": "T",
+						"item": ["planks"]
+					},
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "polished andesite",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["SS", "SS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["andesite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"andesite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished andesite slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished andesite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"andesite": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished andesite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished andesite stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished andesite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"andesite": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished andesite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished basalt",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["SS", "SS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["basalt"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"basalt": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished blackstone",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["SS", "SS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["blackstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished blackstone brick slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished blackstone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished blackstone brick stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished blackstone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished blackstone brick wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished blackstone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished blackstone bricks",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished blackstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished blackstone button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"polished blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished blackstone pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished blackstone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "polished blackstone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished blackstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished blackstone stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished blackstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished blackstone wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished blackstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"blackstone": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished blackstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished diorite",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["SS", "SS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["diorite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"diorite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished diorite slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished diorite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"diorite": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished diorite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished diorite stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished diorite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"diorite": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished diorite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished granite",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["SS", "SS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["granite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"granite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished granite slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished granite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"granite": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished granite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "polished granite stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["polished granite"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"granite": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"polished granite": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "popped chorus fruit",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"chorus fruit": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "powered rail",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["X X", "X#X", "XRX"],
+				"keys": [
+					{
+						"key": "R",
+						"item": ["redstone"]
+					},
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["gold ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "prismarine",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["SS", "SS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["prismarine shard"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "prismarine brick slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["prismarine bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"prismarine bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "prismarine brick stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["prismarine bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"prismarine bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "prismarine bricks",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["SSS", "SSS", "SSS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["prismarine shard"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "prismarine slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["prismarine"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"prismarine": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "prismarine stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["prismarine"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"prismarine": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "prismarine wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["prismarine"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"prismarine": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "pumpkin pie",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"pumpkin": 1,
+					"sugar": 1,
+					"egg": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "pumpkin seeds",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"pumpkin": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "purple banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["purple wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "purple bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["purple wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"purple dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "purple carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["purple wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["purple dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "purple concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"purple dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "purple dye",
+		"value": [
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"blue dye": 1,
+					"red dye": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "purple glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"purple terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "purple stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["purple dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "purple stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["purple stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["purple dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "purple terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["purple dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "purple wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"purple dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "purpur block",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["FF", "FF"],
+				"keys": [
+					{
+						"key": "F",
+						"item": ["popped chorus fruit"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "purpur pillar",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["purpur slab"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"purpur block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "purpur slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["purpur block", "purpur pillar"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"purpur block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "purpur stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["purpur block", "purpur pillar"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"purpur block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "quartz",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"nether quartz ore": 1
+				},
+				"experience": 0.2,
+				"cookingtime": 200
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"nether quartz ore": 1
+				},
+				"experience": 0.2,
+				"cookingtime": 100
+			}
+		]
+	},
+	{
+		"name": "quartz block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["quartz"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "quartz bricks",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["quartz block"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"quartz block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "quartz pillar",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["quartz block"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"quartz block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "quartz slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": [
+							"chiseled quartz block",
+							"quartz block",
+							"quartz pillar"
+						]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"quartz block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "quartz stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": [
+							"chiseled quartz block",
+							"quartz block",
+							"quartz pillar"
+						]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"quartz block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "rabbit stew",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"baked potato": 1,
+					"cooked rabbit": 1,
+					"bowl": 1,
+					"carrot": 1,
+					"brown mushroom": 1
+				},
+				"group": "rabbit stew"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"baked potato": 1,
+					"cooked rabbit": 1,
+					"bowl": 1,
+					"carrot": 1,
+					"red mushroom": 1
+				},
+				"group": "rabbit stew"
+			}
+		]
+	},
+	{
+		"name": "rail",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["X X", "X#X", "X X"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "red banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "red bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"red dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "red carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["red dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "red concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"red dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "red dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"beetroot": 1
+				},
+				"group": "red dye"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"poppy": 1
+				},
+				"group": "red dye"
+			},
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"rose bush": 1
+				},
+				"group": "red dye"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"red tulip": 1
+				},
+				"group": "red dye"
+			}
+		]
+	},
+	{
+		"name": "red glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"red terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "red nether brick slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red nether bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"red nether bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "red nether brick stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red nether bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"red nether bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "red nether brick wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red nether bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"red nether bricks": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "red nether bricks",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["NW", "WN"],
+				"keys": [
+					{
+						"key": "W",
+						"item": ["nether wart"]
+					},
+					{
+						"key": "N",
+						"item": ["nether brick"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "red sandstone",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red sand"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "red sandstone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red sandstone", "chiseled red sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"red sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "red sandstone stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": [
+							"red sandstone",
+							"chiseled red sandstone",
+							"cut red sandstone"
+						]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"red sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "red sandstone wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"red sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "red stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["red dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "red stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["red stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["red dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "red terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["red dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "red wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"red dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	},
+	{
+		"name": "redstone",
+		"value": [
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"redstone block": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "blasting",
+				"ingredients": {
+					"redstone ore": 1
+				},
+				"experience": 0.7,
+				"cookingtime": 100
+			},
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"redstone ore": 1
+				},
+				"experience": 0.7,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "redstone block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["redstone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "redstone lamp",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" R ", "RGR", " R "],
+				"keys": [
+					{
+						"key": "R",
+						"item": ["redstone"]
+					},
+					{
+						"key": "G",
+						"item": ["glowstone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "redstone torch",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["redstone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "repeater",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#X#", "III"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["redstone torch"]
+					},
+					{
+						"key": "X",
+						"item": ["redstone"]
+					},
+					{
+						"key": "I",
+						"item": ["stone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "respawn anchor",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["OOO", "GGG", "OOO"],
+				"keys": [
+					{
+						"key": "O",
+						"item": ["crying obsidian"]
+					},
+					{
+						"key": "G",
+						"item": ["glowstone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "sandstone",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["sand"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "sandstone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["sandstone", "chiseled sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "sandstone stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": [
+							"sandstone",
+							"chiseled sandstone",
+							"cut sandstone"
+						]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "sandstone wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "scaffolding",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["I~I", "I I", "I I"],
+				"keys": [
+					{
+						"key": "~",
+						"item": ["string"]
+					},
+					{
+						"key": "I",
+						"item": ["bamboo"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "sea lantern",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["SCS", "CCC", "SCS"],
+				"keys": [
+					{
+						"key": "S",
+						"item": ["prismarine shard"]
+					},
+					{
+						"key": "C",
+						"item": ["prismarine crystals"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "shears",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" #", "# "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "shield",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["WoW", "WWW", " W "],
+				"keys": [
+					{
+						"key": "W",
+						"item": ["planks"]
+					},
+					{
+						"key": "o",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "shulker box",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["-", "#", "-"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["chest"]
+					},
+					{
+						"key": "-",
+						"item": ["shulker shell"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "skull banner pattern",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"paper": 1,
+					"wither skeleton skull": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "slime ball",
+		"value": [
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"slime block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "slime block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["slime ball"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "smithing table",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["@@", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					},
+					{
+						"key": "@",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "smoker",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" # ", "#X#", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["logs"]
+					},
+					{
+						"key": "X",
+						"item": ["furnace"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "smooth quartz",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"quartz block": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "smooth quartz slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["smooth quartz"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"smooth quartz": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "smooth quartz stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["smooth quartz"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"smooth quartz": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "smooth red sandstone",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"red sandstone": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "smooth red sandstone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["smooth red sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"smooth red sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "smooth red sandstone stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["smooth red sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"smooth red sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "smooth sandstone",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"sandstone": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "smooth sandstone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["smooth sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"smooth sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "smooth sandstone stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["smooth sandstone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"smooth sandstone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "smooth stone",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"stone": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "smooth stone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["smooth stone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"smooth stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "snow",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["snow block"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "snow block",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["snowball"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "soul campfire",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" S ", "S#S", "LLL"],
+				"keys": [
+					{
+						"key": "L",
+						"item": ["logs"]
+					},
+					{
+						"key": "S",
+						"item": ["stick"]
+					},
+					{
+						"key": "#",
+						"item": ["soul fire base blocks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "soul lantern",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X#X", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["soul torch"]
+					},
+					{
+						"key": "X",
+						"item": ["iron nugget"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "soul torch",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["X", "#", "S"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["coal", "charcoal"]
+					},
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "S",
+						"item": ["soul fire base blocks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "spectral arrow",
+		"value": [
+			{
+				"count": 2,
+				"pattern": [" # ", "#X#", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glowstone dust"]
+					},
+					{
+						"key": "X",
+						"item": ["arrow"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "sponge",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"wet sponge": 1
+				},
+				"experience": 0.15,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "spruce boat",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# #", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["spruce planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "boat"
+			}
+		]
+	},
+	{
+		"name": "spruce button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"spruce planks": 1
+				},
+				"group": "wooden button"
+			}
+		]
+	},
+	{
+		"name": "spruce door",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["spruce planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden door"
+			}
+		]
+	},
+	{
+		"name": "spruce fence",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["W#W", "W#W"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["spruce planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence"
+			}
+		]
+	},
+	{
+		"name": "spruce fence gate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#W#", "#W#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["spruce planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence gate"
+			}
+		]
+	},
+	{
+		"name": "spruce planks",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"spruce logs": 1
+				},
+				"group": "planks"
+			}
+		]
+	},
+	{
+		"name": "spruce pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["spruce planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden pressure plate"
+			}
+		]
+	},
+	{
+		"name": "spruce sign",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["###", "###", " X "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["spruce planks"]
+					},
+					{
+						"key": "X",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sign"
+			}
+		]
+	},
+	{
+		"name": "spruce slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["spruce planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden slab"
+			}
+		]
+	},
+	{
+		"name": "spruce stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["spruce planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden stairs"
+			}
+		]
+	},
+	{
+		"name": "spruce trapdoor",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["spruce planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden trapdoor"
+			}
+		]
+	},
+	{
+		"name": "spruce wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["spruce log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "stick",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sticks"
+			},
+			{
+				"count": 1,
+				"pattern": ["#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["bamboo"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sticks"
+			}
+		]
+	},
+	{
+		"name": "sticky piston",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["S", "P"],
+				"keys": [
+					{
+						"key": "P",
+						"item": ["piston"]
+					},
+					{
+						"key": "S",
+						"item": ["slime ball"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "stone",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"cobblestone": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "stone axe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", "X#", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["stone tool materials"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "stone brick slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "stone brick stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "stone brick wall",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stone bricks"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone bricks": 1
+				}
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "stone bricks",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "stone button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "stone hoe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", " #", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["stone tool materials"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "stone pickaxe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", " # ", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["stone tool materials"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "stone pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "stone shovel",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["stone tool materials"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "stone slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "stone stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stone"]
+					}
+				],
+				"type": "crafting shaped"
+			},
+			{
+				"count": 1,
+				"type": "stonecutting",
+				"ingredients": {
+					"stone": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "stone sword",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "X", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["stone tool materials"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "stonecutter",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" I ", "###"],
+				"keys": [
+					{
+						"key": "I",
+						"item": ["iron ingot"]
+					},
+					{
+						"key": "#",
+						"item": ["stone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "stripped acacia wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stripped acacia log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "stripped birch wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stripped birch log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "stripped crimson hyphae",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stripped crimson stem"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "stripped dark oak wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stripped dark oak log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "stripped jungle wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stripped jungle log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "stripped oak wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stripped oak log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "stripped spruce wood",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stripped spruce log"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "stripped warped hyphae",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stripped warped stem"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "sugar",
+		"value": [
+			{
+				"count": 3,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"honey bottle": 1
+				},
+				"group": "sugar"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"sugar cane": 1
+				},
+				"group": "sugar"
+			}
+		]
+	},
+	{
+		"name": "target",
+		"value": [
+			{
+				"count": 1,
+				"pattern": [" R ", "RHR", " R "],
+				"keys": [
+					{
+						"key": "H",
+						"item": ["hay block"]
+					},
+					{
+						"key": "R",
+						"item": ["redstone"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"clay": 1
+				},
+				"experience": 0.35,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "tnt",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X#X", "#X#", "X#X"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["sand", "red sand"]
+					},
+					{
+						"key": "X",
+						"item": ["gunpowder"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "tnt minecart",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["A", "B"],
+				"keys": [
+					{
+						"key": "A",
+						"item": ["tnt"]
+					},
+					{
+						"key": "B",
+						"item": ["minecart"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "torch",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["X", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["coal", "charcoal"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "trapped chest",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"chest": 1,
+					"tripwire hook": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "tripwire hook",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["I", "S", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["planks"]
+					},
+					{
+						"key": "S",
+						"item": ["stick"]
+					},
+					{
+						"key": "I",
+						"item": ["iron ingot"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "turtle helmet",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", "X X"],
+				"keys": [
+					{
+						"key": "X",
+						"item": ["scute"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "warped button",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"warped planks": 1
+				},
+				"group": "wooden button"
+			}
+		]
+	},
+	{
+		"name": "warped door",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["warped planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden door"
+			}
+		]
+	},
+	{
+		"name": "warped fence",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["W#W", "W#W"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["warped planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence"
+			}
+		]
+	},
+	{
+		"name": "warped fence gate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["#W#", "#W#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "W",
+						"item": ["warped planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden fence gate"
+			}
+		]
+	},
+	{
+		"name": "warped fungus on a stick",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["# ", " X"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["fishing rod"]
+					},
+					{
+						"key": "X",
+						"item": ["warped fungus"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "warped hyphae",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["warped stem"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bark"
+			}
+		]
+	},
+	{
+		"name": "warped planks",
+		"value": [
+			{
+				"count": 4,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"warped stems": 1
+				},
+				"group": "planks"
+			}
+		]
+	},
+	{
+		"name": "warped pressure plate",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["warped planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden pressure plate"
+			}
+		]
+	},
+	{
+		"name": "warped sign",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["###", "###", " X "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["warped planks"]
+					},
+					{
+						"key": "X",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "sign"
+			}
+		]
+	},
+	{
+		"name": "warped slab",
+		"value": [
+			{
+				"count": 6,
+				"pattern": ["###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["warped planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden slab"
+			}
+		]
+	},
+	{
+		"name": "warped stairs",
+		"value": [
+			{
+				"count": 4,
+				"pattern": ["#  ", "## ", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["warped planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden stairs"
+			}
+		]
+	},
+	{
+		"name": "warped trapdoor",
+		"value": [
+			{
+				"count": 2,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["warped planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "wooden trapdoor"
+			}
+		]
+	},
+	{
+		"name": "wheat",
+		"value": [
+			{
+				"count": 9,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"hay block": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "white banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "white bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			}
+		]
+	},
+	{
+		"name": "white carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "white concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "white dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"bone meal": 1
+				},
+				"group": "white dye"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"lily of the valley": 1
+				},
+				"group": "white dye"
+			}
+		]
+	},
+	{
+		"name": "white glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"white terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "white stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["white dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "white stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["white dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "white terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["white dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "white wool",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["##", "##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["string"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "wooden axe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", "X#", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "wooden hoe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XX", " #", " #"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "wooden pickaxe",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["XXX", " # ", " # "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "wooden shovel",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "#", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "wooden sword",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["X", "X", "#"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["stick"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped"
+			}
+		]
+	},
+	{
+		"name": "writable book",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"book": 1,
+					"ink sac": 1,
+					"feather": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "yellow banner",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "###", " | "],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["yellow wool"]
+					},
+					{
+						"key": "|",
+						"item": ["stick"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "banner"
+			}
+		]
+	},
+	{
+		"name": "yellow bed",
+		"value": [
+			{
+				"count": 1,
+				"pattern": ["###", "XXX"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["yellow wool"]
+					},
+					{
+						"key": "X",
+						"item": ["planks"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "bed"
+			},
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"white bed": 1,
+					"yellow dye": 1
+				},
+				"group": "dyed bed"
+			}
+		]
+	},
+	{
+		"name": "yellow carpet",
+		"value": [
+			{
+				"count": 3,
+				"pattern": ["##"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["yellow wool"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["white carpet"]
+					},
+					{
+						"key": "$",
+						"item": ["yellow dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "carpet"
+			}
+		]
+	},
+	{
+		"name": "yellow concrete powder",
+		"value": [
+			{
+				"count": 8,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"yellow dye": 1,
+					"sand": 4,
+					"gravel": 4
+				},
+				"group": "concrete powder"
+			}
+		]
+	},
+	{
+		"name": "yellow dye",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"dandelion": 1
+				},
+				"group": "yellow dye"
+			},
+			{
+				"count": 2,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"sunflower": 1
+				},
+				"group": "yellow dye"
+			}
+		]
+	},
+	{
+		"name": "yellow glazed terracotta",
+		"value": [
+			{
+				"count": 1,
+				"type": "smelting",
+				"ingredients": {
+					"yellow terracotta": 1
+				},
+				"experience": 0.1,
+				"cookingtime": 200
+			}
+		]
+	},
+	{
+		"name": "yellow stained glass",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass"]
+					},
+					{
+						"key": "X",
+						"item": ["yellow dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass"
+			}
+		]
+	},
+	{
+		"name": "yellow stained glass pane",
+		"value": [
+			{
+				"count": 16,
+				"pattern": ["###", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["yellow stained glass"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			},
+			{
+				"count": 8,
+				"pattern": ["###", "#$#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["glass pane"]
+					},
+					{
+						"key": "$",
+						"item": ["yellow dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained glass pane"
+			}
+		]
+	},
+	{
+		"name": "yellow terracotta",
+		"value": [
+			{
+				"count": 8,
+				"pattern": ["###", "#X#", "###"],
+				"keys": [
+					{
+						"key": "#",
+						"item": ["terracotta"]
+					},
+					{
+						"key": "X",
+						"item": ["yellow dye"]
+					}
+				],
+				"type": "crafting shaped",
+				"group": "stained terracotta"
+			}
+		]
+	},
+	{
+		"name": "yellow wool",
+		"value": [
+			{
+				"count": 1,
+				"type": "crafting shapeless",
+				"ingredients": {
+					"yellow dye": 1,
+					"white wool": 1
+				},
+				"group": "wool"
+			}
+		]
+	}
+]
