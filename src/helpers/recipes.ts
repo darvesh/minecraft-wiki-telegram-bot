@@ -69,7 +69,7 @@ export const instantiateFuse = () => {
 	return fuse;
 };
 
-export const search = <T, O>(fuse: Fuse<T, O>, query = "") =>
+export const search = (fuse: Fuse<Recipe>, query = "") =>
 	fuse.search(query, { limit: 5 });
 
 export const formatMessage = (value: Recipe["value"], name: string) => {

@@ -15,6 +15,7 @@ const downloadPage = async (url: string) => {
 };
 
 const search = async (query?: string): Promise<Array<[string, string]>> => {
+	if (!query) return [];
 	const response = await axios
 		.get<string[][]>(
 			`https://minecraft.gamepedia.com/api.php?action=opensearch&format=json&formatversion=2&search=${query}&namespace=0%7C10000%7C10002&limit=4&suggest=true`,
@@ -29,7 +30,7 @@ const search = async (query?: string): Promise<Array<[string, string]>> => {
 	return zip(response[1], response[3]);
 };
 
-const getThumbnail = (dom: JSDOM): string =>
+const getThumbnail = (dom: InstanceType<typeof JSDOM>): string =>
 	dom.window.document
 		.querySelector("meta[property='og:image']")
 		?.getAttribute("content") ?? "https://kutt.it/yEdrQw";
@@ -42,11 +43,15 @@ const removeBrackets = (text: string) => text.replace(/\{|\}/g, "");
 
 const filter = pipe(trim, escape);
 
-const getAdditionalInfo = ({ window: { document } }: JSDOM): string => {
+const getAdditionalInfo = ({
+	window: { document }
+}: InstanceType<typeof JSDOM>): string => {
 	const infoBox = Array.from(
 		document.querySelectorAll("table > tbody > tr"),
 		node =>
-			node?.textContent?.split(/\s{3,}/).map(a => `${a.trim()} `) ?? []
+			node?.textContent
+				?.split(/\s{3,}/)
+				.map((a: string) => `${a.trim()} `) ?? []
 	);
 	const extract = infoBox.reduce((acc, [name, description]) => {
 		if (
