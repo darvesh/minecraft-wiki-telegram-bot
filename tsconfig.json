@@ -5,21 +5,12 @@
 		"incremental": true,
 		"preserveConstEnums": true,
 		"outDir": "build",
-		"sourceMap": true,
 		"strict": true,
 		"resolveJsonModule": true,
 		"esModuleInterop": true,
 		"target": "ES2019",
-		"lib": [
-			"ES2020",
-			"DOM"
-		]
+		"lib": ["ES2020", "DOM"]
 	},
-	"include": [
-		"src/**/*"
-	],
-	"exclude": [
-		"node_modules",
-		"**/*.spec.ts"
-	]
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
 }
