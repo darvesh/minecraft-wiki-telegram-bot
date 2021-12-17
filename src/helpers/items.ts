@@ -79,7 +79,7 @@ const formatMessage = (
 ) => {
 	// there is zero-width char in image url title
 	const message = `*${escape(itemName)}* 
-	_${escape(description)}_ [​](${escapeURL(imageURL)}) \n${additionalInfo}
+_ ${escape(description)} _ [​](${escapeURL(imageURL)}) \n${additionalInfo}
 	[Visit Wiki Page](${escapeURL(itemPageURL)})`;
 	return message;
 };
