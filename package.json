@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "app.js",
 	"scripts": {
+		"build": "tsc",
 		"start": "cp -r src/data build && node build/app.js",
 		"lint": "eslint --fix ./src"
 	},
