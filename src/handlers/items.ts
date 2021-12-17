@@ -1,5 +1,6 @@
-import { TelegrafContext } from "telegraf/typings/context";
-import { InlineQueryResultArticle } from "telegraf/typings/telegram-types";
+import { Context } from "grammy";
+import { InlineQueryResultArticle } from "grammy/out/platform.node";
+
 import {
 	search,
 	downloadPage,
@@ -10,9 +11,7 @@ import {
 } from "../helpers/items";
 import { escape } from "../utils";
 
-export const itemHandler = async (
-	context: TelegrafContext
-): Promise<boolean> => {
+export const itemHandler = async (context: Context): Promise<boolean> => {
 	const result = await search(context.inlineQuery?.query);
 	const response = await Promise.all(
 		result.map(

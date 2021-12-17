@@ -1,15 +1,16 @@
-import { TelegrafContext } from "telegraf/typings/context";
 import type Fuse from "fuse.js";
+import { Context } from "grammy";
 
 import { Recipe } from "../types/recipe";
 import { search, formatMessage } from "../helpers/recipes";
+import { InlineQueryResult } from "grammy/out/platform.node";
 
 export const recipeHandler = async (
-	context: TelegrafContext,
+	context: Context,
 	fuse: Fuse<Recipe>
 ): Promise<boolean> => {
 	const searchResult = search(fuse, context.inlineQuery?.query.slice(1, -1));
-	const results = searchResult.map((result, index) => {
+	const results: InlineQueryResult[] = searchResult.map((result, index) => {
 		const formattedMessage = formatMessage(
 			result.item.value,
 			result.item.name
@@ -24,5 +25,5 @@ export const recipeHandler = async (
 			}
 		};
 	});
-	return await context.answerInlineQuery(results);
+	return context.answerInlineQuery(results);
 };

@@ -9,7 +9,9 @@
 		"resolveJsonModule": true,
 		"esModuleInterop": true,
 		"target": "ES2019",
-		"lib": ["ES2020", "DOM"]
+		"lib": ["ES2020", "DOM"],
+		"useUnknownInCatchVariables": false,
+		"skipLibCheck": true
 	},
 	"include": ["src/**/*"],
 	"exclude": ["node_modules", "**/*.spec.ts"]
